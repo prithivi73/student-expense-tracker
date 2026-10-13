@@ -1,42 +1,41 @@
 # Student Expense Tracker
 
-A beginner-friendly Python and MySQL project to record, organise, and analyse student expenses.
+A beginner Python project for recording and reviewing daily student expenses.
 
-## Project Overview
+## Current Features
 
-The Student Expense Tracker is being developed to help students maintain a record of their daily spending and understand their monthly expenses.
-
-## Planned Features
-
-- Add a new expense
-- View recorded expenses
-- Categorise spending
-- Calculate total expenses
-- Generate monthly expense summaries
-- Store expense records in a MySQL database
+- Add an expense with an amount, category, and description
+- View expenses recorded during the current session
+- Calculate total spending
+- Validate expense amounts and handle invalid input
 
 ## Technologies
 
-- Python
-- MySQL
-- SQL
+- Python 3
+- Lists and dictionaries
+- Functions and exception handling
 
-## Project Status
+## How to Run
 
-In development.
+1. Install Python 3.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run:
 
-## Learning Objectives
+   `python main.py`
 
-- Practise Python programming
-- Learn database connectivity
-- Write and execute SQL queries
-- Improve debugging and problem-solving skills
+## Current Limitations
 
-## Future Improvements
+- Expenses are stored temporarily in memory.
+- Expense records are lost when the program exits.
+- MySQL database integration has not been implemented yet.
 
-- Add a graphical user interface
-- Display spending charts
-- Export expense reports
+## Planned Improvements
+
+- Store expenses permanently
+- Integrate MySQL
+- Add monthly spending summaries
+- Improve testing and documentation
 
 ## Author
 
